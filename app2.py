@@ -1,6 +1,7 @@
 import streamlit as st
 import gdown
 
+@st.cache_resource
 def carrega_modelo():
   url = 'https://drive.google.com/file/d/1vCvzakWS3EqmPJTRmEHxsyryvnWFRVs9/view?usp=sharing'
   gdown.download(url,'modelo_vidente.keras')
