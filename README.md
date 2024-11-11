@@ -1,0 +1,2 @@
+# Vidente
+Próxima palavra
