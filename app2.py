@@ -18,7 +18,7 @@ def main():
   # Carregar Modelo
   loaded_model, vectorizer = carrega_modelo()
 
-  st.title('Previsão de próximas palavras')
+  st.title('Previsão de próximas palavras no texto informado')
   input_text = st.text_input('Digite uma sequencia de texto:')
 
 if __name__=='__main__':
